@@ -8,15 +8,12 @@ console.log(temperature);
 console.log(greeting);
 console.log(isLearningFun);
 
-
-List = [1,2,3,4,5]
 let student = {name : "Arsh", age: 19, subjects: ['CMPSC 263', 'CMPSC 465', 'CMPSC 461', 'CMPSC 311', 'CMPEN 270']}
 student.isGraduated = false;
 
-console.log(student)
-
 primeNumbers = [2,3,5,7,11]
-console.log(primeNumbers)
+primeNumbers[1] = 4
+console.log(primeNumbers[1] + " Mistake detected");
 
 let x = 5
 let y = 10
