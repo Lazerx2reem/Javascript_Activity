@@ -89,4 +89,4 @@ function findLongestWord(sentence) {
     return longestWord;
 }
 
-console.log(findLongestWord("my name is Arsh Gupta"));
+console.log(findLongestWord("The quick brown fox jumped over the lazy dog"));
