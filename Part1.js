@@ -3,7 +3,11 @@ let temperature = 36.6
 let greeting = "Hello, Javascript! "
 let isLearningFun = true
 
-console.log(score, temperature, greeting, isLearningFun)
+console.log(score);
+console.log(temperature);
+console.log(greeting);
+console.log(isLearningFun);
+
 
 List = [1,2,3,4,5]
 let student = {name : "Arsh", age: 19, subjects: ['CMPSC 263', 'CMPSC 465', 'CMPSC 461', 'CMPSC 311', 'CMPEN 270']}
