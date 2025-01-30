@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const taskText = taskInput.value.trim();
 
         if (taskText !== "") {
-            // Create new list item
             const listItem = document.createElement("li");
 
             // Create a span for the task text
@@ -18,14 +17,11 @@ document.addEventListener("DOMContentLoaded", () => {
             const checkBox = document.createElement("input");
             checkBox.type = "checkbox";
 
-            // Append task text first, then checkbox
             listItem.appendChild(taskLabel);
             listItem.appendChild(checkBox);
 
-            // Append the list item to the ordered list
             taskList.appendChild(listItem);
 
-            // Clear input field
             taskInput.value = "";
         }
     });
