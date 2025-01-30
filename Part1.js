@@ -70,7 +70,11 @@ console.log(countdownMessage);
 
 // Swap function
 function swap(a, b, c) {
-    return [c, a, b];
+    let temp = a;
+    a = b;
+    b = c;
+    c = temp;
+    return [a,b,c];
 }
 
 let values = swap(1, 2, 3);
